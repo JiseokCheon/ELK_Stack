@@ -14,14 +14,14 @@
 #
 # Use a descriptive name for your cluster:
 #
-cluster.name: my-application
+cluster.name: "my-application"
 #
 # ------------------------------------ Node ------------------------------------
 #
 # Use a descriptive name for the node:
 #
 node:
-  name: node-2
+  name: "node-1"
 #
 # Add custom attributes to the node:
 #
@@ -55,7 +55,7 @@ node:
 # address here to expose this node on the network:
 #
 # network.host: 192.168.0.1
-network.host: [_local_, _site_]
+network.host: ["_local_", "_site_"]
 #
 # By default Elasticsearch listens for HTTP traffic on the first free port it
 # finds starting at 9200. Set a specific HTTP port here:
